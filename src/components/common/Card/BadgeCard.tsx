@@ -53,7 +53,8 @@ const BadgeCard = ({
         bg="primary.0"
       >
         <Card.Section
-          style={{ backgroundColor: "var(--mantine-color-primary-0)" }}
+          // style={{ backgroundColor: "var(--mantine-color-primary-0)" }}
+        className={classes.badgeColor}
         >
           <Image
             src={image}

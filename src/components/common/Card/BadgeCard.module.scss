@@ -41,3 +41,7 @@
   -webkit-box-orient: vertical;
   min-height: 3.5em; /* Optional: consistent block height */
 }
+
+.badgeColor{
+  background-color: var(--mantine-color-primary-6);
+}
